@@ -23,3 +23,13 @@ enum Gradelevel {
         sk("Senior Kindergarten"),
         jk("Junior Kindergarten");        
         
+  private final String stringGrade;
+                
+  Gradelevel(String grade) {
+    this.stringGrade = grade;
+  }
+         
+  public String setGrade() {
+    return this.stringGrade;
+  }
+}
