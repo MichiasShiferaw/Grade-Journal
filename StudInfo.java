@@ -33,3 +33,14 @@ enum Gradelevel {
     return this.stringGrade;
   }
 }
+
+
+class Stud {
+        
+  private String fname;
+  private String lname;
+  private char initial;
+  private String dob;
+  private Gradelevel grade;
+  private boolean identify;
+}        
