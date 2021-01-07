@@ -96,3 +96,9 @@ class Stud {
   public void setgrade(Gradelevel grade) {
     this.grade = grade; 
   }
+                
+  public void setidentify(boolean identify) {
+    this.identify = identify; 
+  }
+                
+}
