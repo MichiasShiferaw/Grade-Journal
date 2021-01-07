@@ -145,3 +145,9 @@ public class StudInfo {
       System.out.println("Please type " + fname + "'s grade level. (i.e = ten, sk)");
       gradeList = br.readLine();
       grade = Gradelevel.valueOf(gradeList.toLowerCase());
+      
+      System.out.println("Is the student # identified? Y/N");
+
+      if (br.readLine().equals("Y")) {
+        identify = true;
+      }
