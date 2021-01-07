@@ -84,3 +84,15 @@ class Stud {
   public void setlastName(String lname) {
     this.lname = lname; 
   }
+        
+  public void setinitial(char initial) {
+    this.initial = initial;
+  }
+  
+  public void setdob(String dob) {
+    this.dob = dob; 
+  }    
+  
+  public void setgrade(Gradelevel grade) {
+    this.grade = grade; 
+  }
