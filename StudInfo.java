@@ -76,3 +76,11 @@ class Stud {
   public boolean getidentify() {
     return identify; 
   }
+                
+  public void setfirstName(String fname) {
+    this.fname = fname; 
+  }
+        
+  public void setlastName(String lname) {
+    this.lname = lname; 
+  }
