@@ -151,3 +151,14 @@ public class StudInfo {
       if (br.readLine().equals("Y")) {
         identify = true;
       }
+
+      Stud curStudent = new Stud(fname, lname, initial, dob, grade, identify);
+      System.out.println("First name: " + curStudent.getfname() + ", SurName: " 
+          + lname + ", Initial:  "  + curStudent.getinitial()); 
+                                
+      System.out.println(", Date of Birth: " + curStudent.getdob() + ", grade level: " 
+          + curStudent.getgrade() + ",  " + curStudent.getidentify());
+      System.out.println("");
+      //Add the new student to the array
+      classList.add(curStudent); 
+      
