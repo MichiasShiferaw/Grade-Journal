@@ -68,3 +68,11 @@ class Stud {
   public String getdob() {
     return dob;
   }        
+                
+  public Gradelevel getgrade() {
+    return grade; 
+  }
+                
+  public boolean getidentify() {
+    return identify; 
+  }
