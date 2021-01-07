@@ -103,15 +103,7 @@ class Stud {
                 
 }
 public class StudInfo {
-  
-  /**
-  * This program holds student information in an array, and as each new
-  * student's info is entered, a new entry is created in the array.
-  * Modified to store all student info in an array
-  * @author Michias Shiferaw
-  * @Version 2.0
-  * @since 2020-03-19.
-  */      
+   
   public static void main(String[] args) throws IOException {
     //Create a new unlimited array with  
     ArrayList<Stud> classList = new ArrayList<Stud>();
@@ -120,3 +112,14 @@ public class StudInfo {
     Scanner reader = new Scanner(System.in);
     InputStreamReader r = new InputStreamReader(System.in); 
     BufferedReader br = new BufferedReader(r);
+    
+    //Declare variables
+    int counter = 0;          
+    String fname = null;
+    String lname = null;
+    char initial = 0;
+    String dob = null;
+    Gradelevel grade;
+    String gradeList;
+    boolean identify = false; 
+    boolean finished = false;
