@@ -135,3 +135,13 @@ public class StudInfo {
       //Retrieve lastname         
       System.out.println("Please type student" + (counter) + "'s surname");
       lname = userinput.nextLine();          
+      //Retrieve intial
+      System.out.println("Please type student " + (counter) + "'s middlename initial");
+      initial = reader.next().charAt(0);
+      //Retrieve date of birth    
+      System.out.println("Enter a date of birth (DD/MM/YYYY) of student " + (counter) + ".");
+      dob = userinput.nextLine();
+      //Retrieve grade level      
+      System.out.println("Please type " + fname + "'s grade level. (i.e = ten, sk)");
+      gradeList = br.readLine();
+      grade = Gradelevel.valueOf(gradeList.toLowerCase());
