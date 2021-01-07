@@ -53,3 +53,10 @@ class Stud {
     this.identify = identify;
   }        
    
+  public String getfname() {
+    return fname; 
+  }
+        
+  public String getlname() {
+    return lname; 
+  }
