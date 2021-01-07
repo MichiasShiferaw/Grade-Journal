@@ -60,3 +60,11 @@ class Stud {
   public String getlname() {
     return lname; 
   }
+
+  public char getinitial() {
+    return initial; 
+  }
+        
+  public String getdob() {
+    return dob;
+  }        
