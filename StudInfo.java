@@ -123,3 +123,15 @@ public class StudInfo {
     String gradeList;
     boolean identify = false; 
     boolean finished = false;
+
+                
+    while (finished == false) {
+      
+      counter = counter + 1; 
+      
+      //Retrieve first name
+      System.out.println("Please type the student " + (counter) + "'s name");
+      fname = userinput.nextLine();
+      //Retrieve lastname         
+      System.out.println("Please type student" + (counter) + "'s surname");
+      lname = userinput.nextLine();          
