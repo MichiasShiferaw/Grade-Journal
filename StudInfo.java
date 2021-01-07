@@ -42,5 +42,14 @@ class Stud {
   private char initial;
   private String dob;
   private Gradelevel grade;
-  private boolean identify;
-}        
+  private boolean identify;        
+
+  public Stud(String fname, String lname, char initial, String dob, Gradelevel grade, boolean identify) {
+    this.fname = fname;
+    this.lname = lname;
+    this.initial = initial;
+    this.dob = dob;
+    this.grade = grade;
+    this.identify = identify;
+  }        
+   
